@@ -1,0 +1,16 @@
+```css
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.toolbar {
+    margin-bottom: 10px;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online PDF Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button id="zoom-in">Zoom In</button>
+        <button id="zoom-out">Zoom Out</button>
+        <button id="download">Download</button>
+        <button id="bookmark">Bookmark</button>
+        <input type="file" id="upload" accept="application/pdf">
+    </div>
+    <progress id="progress-bar" value="0" max="100" style="width: 100%; display: none;"></progress>
+    <canvas id="pdf-render"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
